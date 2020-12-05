@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body {
+  #font-family: 'Roboto', sans-serif;	
+  margin: 0;
+  padding: 0;
+  background-image: url('image/myImg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+	letter-spacing: 5px;
+	margin: 10%;
+	#border: 1px solid white;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+
+}
+p a{
+	text-decoration: none;
+	color: yellow;
+}
+p:last-child {
+	margin-bottom: 300px; 
+}
+
+.sections{
+	min-height: 400px;
+	#border: 1px solid white;
+	margin: 0 5%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	#padding: 10%;
+}
+.sections .subSec{
+	min-height: 80%;
+	#border: 1px solid white;
+	margin: 10%;
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 20px;  
+}
+
+
+h3{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 5px;
+	
+}
+#Hobbies ul{
+	width: auto;
+	margin: 2% 25%;
+	#border: 1px solid white;
+	color: white;
+	font-size: 30px;
+	list-style: disc;
+	text-align: justify;
+}
+#Hobbies ul li{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: yellow;
+}
+#WorkExperience{
+	font-family: 'Roboto', sans-serif;
+	color: yellow;
+	text-align: center;
+}
+
+#WorkExperience h3{
+	font-size: 30px;
+}
+#WorkExperience table{
+	#border: 1px solid white;
+	#width: 80%;
+	width: auto;
+	margin: 2% 10%;
+	
+}
+#WorkExperience table th{
+	border-bottom: 1px solid white;
+}
+
+#Skills{
+	color: white;
+}
+#Skills table{
+	font-family: 'Roboto', sans-serif;
+	#border: 1px solid white;
+	width: auto;
+	margin: 2% 20%;
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+}
+.contact{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	#border: 1px solid white;
+	font-size: 30px;
+	color: yellow;
+	background: rgba(0,0,0,0.6);
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 10px; 
+}
+@media(max-width: 1168px){
+	.sections{
+		grid-template-columns: repeat(2, 1fr);
+     }
+}
+@media(max-width:768px){
+	.sections{
+		grid-template-columns: repeat(1, 1fr);
+     }
+}
+
